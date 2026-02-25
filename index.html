@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gifterra – Thoughtful Gifting. Simplified</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="navbar">
+  <a href="#" class="logo">Gift<span>erra</span></a>
+  <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#packs">Featured Packs</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="#testimonials">Testimonials</a></li>
+    <li><a href="#cta" class="nav-cta">Contact Us</a></li>
+  </ul>
+  <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<div class="mobile-nav" id="mobileNav">
+  <a href="#about" onclick="closeMenu()">About</a>
+  <a href="#packs" onclick="closeMenu()">Featured Packs</a>
+  <a href="#gallery" onclick="closeMenu()">Gallery</a>
+  <a href="#testimonials" onclick="closeMenu()">Testimonials</a>
+  <a href="#cta" onclick="closeMenu()">Contact Us</a>
+</div>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-image">
+    <img src="https://images.unsplash.com/photo-1549465220-1a8b9238cd48?w=1200&q=80" alt="Gift boxes" />
+  </div>
+  <div class="hero-content">
+    <div class="hero-badge">✦ Curated Gift Collections</div>
+    <h1>Thoughtful Gifting.<br>Simplified.</h1>
+    <p>Discover and create the perfect customized gift packs for any occasion. Effortless, elegant, and unforgettable.</p>
+    <a href="#packs" class="btn-primary">
+      Explore our collections
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+    </a>
+  </div>
+  <div class="hero-floating">
+    <div class="num">2.4k+</div>
+    <div class="lbl">Happy Customers</div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="about-grid">
+    <div class="about-img reveal">
+      <img src="https://images.unsplash.com/photo-1512909006721-3d6018887383?w=800&q=80" alt="Beautiful gift" />
+    </div>
+    <div class="about-text reveal">
+      <h2>We Believe a Great Gift<br>Is an Experience</h2>
+      <p>At Gifterra we believe that a great gift is more than just an item — it's an experience. We specialize in curating and customizing beautiful gift packs filled with high-quality, thoughtful products. Our mission is to make gifting a joyful and seamless experience for everyone.</p>
+      <div class="about-features">
+        <div class="about-feat">
+          <div class="feat-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+          </div>
+          <div class="feat-text">
+            <h4>Personalised Touch</h4>
+            <p>Tailor every detail to perfection.</p>
+          </div>
+        </div>
+        <div class="about-feat">
+          <div class="feat-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+          </div>
+          <div class="feat-text">
+            <h4>Premium Quality</h4>
+            <p>Only the finest products selected.</p>
+          </div>
+        </div>
+      </div>
+      <a href="#cta" class="btn-outline">
+        Learn more about our story
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- PACKS -->
+<section id="packs">
+  <div class="section-header reveal">
+    <h2>Our Popular Gift Packs</h2>
+    <p>Handpicked collections loved by our customers — find the perfect gift for your special someone.</p>
+  </div>
+  <div class="packs-grid">
+
+    <div class="pack-card reveal">
+      <div class="pack-img">
+        <img src="https://images.unsplash.com/photo-1607344645866-009c320b63e0?w=600&q=80" alt="Relaxation Box" />
+      </div>
+      <div class="pack-body">
+        <h3>The Relaxation Box</h3>
+        <p>A curated set of spa essentials for a blissful escape.</p>
+        <div class="pack-footer">
+          <span class="pack-price">Rs. 90</span>
+          <button class="btn-teal">View Details</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="pack-card reveal">
+      <div class="pack-img">
+        <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80" alt="Gourmet Delight" />
+      </div>
+      <div class="pack-body">
+        <h3>The Gourmet Delight</h3>
+        <p>An exquisite selection of fine foods and drinks for the connoisseur.</p>
+        <div class="pack-footer">
+          <span class="pack-price">Rs. 120</span>
+          <button class="btn-teal">View Details</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="pack-card reveal">
+      <div class="pack-img">
+        <img src="https://images.unsplash.com/photo-1601370690183-1c7796ecec61?w=600&q=80" alt="Hygge Home" />
+      </div>
+      <div class="pack-body">
+        <h3>The Hygge Home</h3>
+        <p>Everything needed for a cozy and comforting day in.</p>
+        <div class="pack-footer">
+          <span class="pack-price">Rs. 90</span>
+          <button class="btn-teal">View Details</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="section-center reveal">
+    <a href="#gallery" class="btn-secondary">Shop All Collections</a>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery">
+  <div class="section-header reveal">
+    <h2>Gifts Gallery</h2>
+    <p>Explore our curated collection of beautifully packaged gifts, perfect for every occasion. Each gift pack is thoughtfully designed to impress and ready to delight your loved ones.</p>
+  </div>
+  <div class="gallery-grid reveal">
+    <div class="g-item" onclick="openLightbox(this)">
+      <img src="https://images.unsplash.com/photo-1513885535751-8b9238bd345a?w=600&q=80" alt="Gift" />
+    </div>
+    <div class="g-item" onclick="openLightbox(this)">
+      <img src="https://images.unsplash.com/photo-1549465220-1a8b9238cd48?w=600&q=80" alt="Gift" />
+    </div>
+    <div class="g-item" onclick="openLightbox(this)">
+      <img src="https://images.unsplash.com/photo-1607344645866-009c320b63e0?w=600&q=80" alt="Gift" />
+    </div>
+    <div class="g-item" onclick="openLightbox(this)">
+      <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80" alt="Gift" />
+    </div>
+    <div class="g-item" onclick="openLightbox(this)">
+      <img src="https://images.unsplash.com/photo-1512909006721-3d6018887383?w=600&q=80" alt="Gift" />
+    </div>
+    <div class="g-item" onclick="openLightbox(this)">
+      <img src="https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=600&q=80" alt="Gift" />
+    </div>
+    <div class="g-item" onclick="openLightbox(this)">
+      <img src="https://images.unsplash.com/photo-1601370690183-1c7796ecec61?w=600&q=80" alt="Gift" />
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials">
+  <div class="section-header reveal">
+    <h2>What Our Customers Say</h2>
+  </div>
+  <div class="testi-grid">
+
+    <div class="testi-card reveal">
+      <div class="testi-avatar">
+        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Customer" />
+      </div>
+      <div class="stars">★★★★★</div>
+      <p>"The gift box was absolutely stunning and my friend loved it! The quality of the products and the presentation were top-notch. Will definitely order again."</p>
+      <div class="testi-name">– Sarah L.</div>
+    </div>
+
+    <div class="testi-card reveal">
+      <div class="testi-avatar">
+        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Customer" />
+      </div>
+      <div class="stars">★★★★★</div>
+      <p>"The gift box was absolutely stunning and my friend loved it! The quality of the products and the presentation were top-notch. Will definitely order again."</p>
+      <div class="testi-name">– Sarah L.</div>
+    </div>
+
+    <div class="testi-card reveal">
+      <div class="testi-avatar">
+        <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Customer" />
+      </div>
+      <div class="stars">★★★★★</div>
+      <p>"The gift box was absolutely stunning and my surrounding friend loved it! The quality of the products and the presentation were top-notch. Will definitely order again."</p>
+      <div class="testi-name">– Sarah L.</div>
+    </div>
+
+  </div>
+</section>
+
+<!-- CTA -->
+<section id="cta">
+  <div class="cta-inner">
+    <div class="cta-text reveal">
+      <h2>Have a special request or a <span>corporate inquiry?</span></h2>
+      <p>We'd love to help you create the perfect gift. Get in touch with our gifting specialists today.</p>
+      <a href="mailto:hello@gifterra.com" class="btn-primary" style="background: var(--teal); color: white;">
+        Contact Us Now
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
+    </div>
+    <div class="cta-img reveal">
+      <img src="https://images.unsplash.com/photo-1549465220-1a8b9238cd48?w=600&q=80" alt="Gift" style="border-radius: 50%; width: 320px; height: 320px; object-fit: cover;" />
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <a href="#" class="logo">Gift<span style="color:white">erra</span></a>
+      <p>Curating meaningful gift experiences for every special moment in life.</p>
+      <div class="social-links">
+        <a href="#" title="Facebook">f</a>
+        <a href="#" title="Instagram">in</a>
+        <a href="#" title="Pinterest">p</a>
+      </div>
+    </div>
+
+    <div>
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#packs">Gift Packs</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#testimonials">Reviews</a></li>
+        <li><a href="#cta">Contact</a></li>
+        <li><a href="#">FAQs</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <h4>Legal</h4>
+      <ul>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms of Service</a></li>
+        <li><a href="#">Refund Policy</a></li>
+        <li><a href="#">Shipping Info</a></li>
+      </ul>
+    </div>
+
+    <div class="newsletter">
+      <h4>Newsletter</h4>
+      <p>Get exclusive offers and gifting ideas delivered straight to your inbox.</p>
+      <div class="newsletter-form">
+        <input type="email" placeholder="Your email address" />
+        <button type="button">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2024 Gifterra. All Rights Reserved.</p>
+  </div>
+</footer>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox" onclick="closeLightbox(event)">
+  <button class="lightbox-close" onclick="closeLightbox()">✕</button>
+  <img id="lightboxImg" src="" alt="Gallery item" />
+</div>
+
+<script>
+  // Scroll reveal
+  const reveals = document.querySelectorAll('.reveal');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((e, i) => {
+      if (e.isIntersecting) {
+        setTimeout(() => e.target.classList.add('visible'), i * 80);
+        observer.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.12 });
+  reveals.forEach(el => observer.observe(el));
+
+  // Navbar shadow on scroll
+  window.addEventListener('scroll', () => {
+    document.getElementById('navbar').style.boxShadow =
+      window.scrollY > 30 ? '0 4px 30px rgba(0,0,0,0.12)' : '0 2px 20px rgba(0,0,0,0.06)';
+  });
+
+  // Mobile menu
+  function toggleMenu() {
+    document.getElementById('mobileNav').classList.toggle('open');
+  }
+  function closeMenu() {
+    document.getElementById('mobileNav').classList.remove('open');
+  }
+
+  // Lightbox
+  function openLightbox(el) {
+    const src = el.querySelector('img').src;
+    document.getElementById('lightboxImg').src = src;
+    document.getElementById('lightbox').classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+  function closeLightbox(e) {
+    if (!e || e.target !== document.getElementById('lightboxImg')) {
+      document.getElementById('lightbox').classList.remove('open');
+      document.body.style.overflow = '';
+    }
+  }
+
+  // Newsletter button feedback
+  document.querySelector('.newsletter-form button').addEventListener('click', function () {
+    const input = document.querySelector('.newsletter-form input');
+    if (input.value.includes('@')) {
+      this.innerHTML = '✓';
+      this.style.background = '#2a9090';
+      input.value = '';
+      setTimeout(() => {
+        this.innerHTML = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>';
+        this.style.background = '';
+      }, 2000);
+    }
+  });
+</script>
+</body>
+</html>
